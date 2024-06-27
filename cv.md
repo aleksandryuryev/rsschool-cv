@@ -22,3 +22,8 @@ Extensive experience in working with and administering Linux, including:
     * Containerization (Docker, Kubernetes)
     * Virtual machines (KVM, Libvirt)
 
+## Education
+
+* 2011 - 2015 Bachelor's Degree in Computer Science and Engineering, Siberian State University of Telecommunications and Informatics, Novosibirsk, Russia
+* 2022 - 2024 Master's Degree in Computer Science and Engineering, Siberian State University of Telecommunications and Informatics, Novosibirsk, Russia
+
