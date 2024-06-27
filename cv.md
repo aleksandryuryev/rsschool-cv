@@ -12,15 +12,15 @@ I have been passionate about information technology since my school days. I hold
 ## Skills
 
 Programming Languages:
-    * HTML/CSS
-    * JavaScript/TypeScript
-    * PHP
-    * C/C++
+* HTML/CSS
+* JavaScript/TypeScript
+* PHP
+* C/C++
 
 Extensive experience in working with and administering Linux, including:
-    * Network management
-    * Containerization (Docker, Kubernetes)
-    * Virtual machines (KVM, Libvirt)
+* Network management
+* Containerization (Docker, Kubernetes)
+* Virtual machines (KVM, Libvirt)
 
 ## Education
 
