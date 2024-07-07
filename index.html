@@ -2,10 +2,141 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Hello</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="noarchive">
+    <meta name="robots" content="noindex, nofollow">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    Hello
+    <header>
+      <nav>
+        <ul class="nav-menu">
+          <li>
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#code-example">Code Example</a>
+          </li>
+          <li>
+            <a href="#languages">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="left-block">
+        <section>
+          <img src="images/photo.jpg" alt="photo" class="photo" width="200" height="200">
+          <h1>Aleksandr Yuryev</h1>
+        </section>
+        <section class="contacts" id="contacts">
+          <h2>Contacts</h2>
+            <ul>
+              <li class="contact">
+                <img src="images/telegram.svg" alt="telegram-icon" width="20" height="20">
+                <a href="https://t.me/AleksandrYuryev" target="_blank">@AleksandrYuryev</a>
+              </li>
+              <li class="contact">
+                <img src="images/discord.svg" alt="discord-icon" width="20" height="20">
+                <a href="https://discordapp.com/users/855457468183478273" target="_blank">@aleksandryuryev</a>
+              </li>
+            </ul>
+        </section>
+      </div>
+      <div class="right-block">
+        <section id="about-me">
+          <h2>About Me</h2>
+          <div>
+            I've been interested in information technology since high school.
+            I have a bachelor's and master's degree in Software Engineering.
+            Currently I work Backend Web Developer.
+            My immediate goal is to become Fullstack Web Developer.
+          </div>
+        </section>
+        <section id="skills">
+          <h2>Skills</h2>
+
+          Programming Languages:
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript/TypeScript</li>
+            <li>PHP</li>
+            <li>C/C++</li>
+          </ul>
+          Extensive experience in working with and administering Linux, including:
+          <ul>
+            <li>Network management</li>
+            <li>Containerization (Docker, Kubernetes)</li>
+            <li>Virtual machines (KVM, Libvirt)</li>
+          </ul>
+        </section>
+        <section id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              2011 - 2015 Bachelor's Degree in Computer Science and Engineering, Siberian State
+              University of Telecommunications and Informatics, Novosibirsk, Russia
+            </li>
+            <li>
+              2022 - 2024 Master's Degree in Computer Science and Engineering, Siberian State
+              University of Telecommunications and Informatics, Novosibirsk, Russia
+            </li>
+          </ul>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/aleksandryuryev/rsschool-cv" target="_blank"
+                >RS School CV</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section id="code-example">
+          <h2>Code Example</h2>
+          <div>
+            <pre>
+              <code>
+                function multiply(a, b){
+                  return a * b
+                }
+              </code>
+          </pre>
+          </div>
+        </section>
+        <section id="languages">
+          <h2>Languages</h2>
+
+          <ul>
+            <li>Russian - Native</li>
+            <li>English - A1</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      © Aleksandr Yuryev, 2024
+
+      <a href="https://github.com/aleksandryuryev" target="_blank"
+        ><img src="images/github.svg" alt="github-icon" width="20"
+     ></a>
+
+      <a href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img src="images/rs-school.svg" alt="rs-school-logo" height="20"
+     ></a>
+    </footer>
   </body>
 </html>
