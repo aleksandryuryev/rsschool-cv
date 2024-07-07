@@ -56,10 +56,10 @@ h2 {
 }
 
 .photo {
-  width: 200px; /* Установите желаемую ширину и высоту */
+  width: 200px;
   height: 200px;
-  object-fit: cover; /* Масштабирует изображение, сохраняя его соотношение сторон */
-  border-radius: 50%; /* Делает изображение круглым */
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .contacts {
