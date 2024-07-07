@@ -1,0 +1,87 @@
+body {
+  max-width: 768px;
+  margin: auto;
+  font-size: 18px;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+}
+
+footer a {
+  margin-left: 20px;
+}
+
+nav {
+  text-align: right;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: right;
+  cursor: pointer;
+  list-style: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.main {
+  display: flex;
+}
+
+.left-block {
+  margin-right: 70px;
+}
+
+.right-block {
+}
+
+.photo {
+  width: 200px; /* Установите желаемую ширину и высоту */
+  height: 200px;
+  object-fit: cover; /* Масштабирует изображение, сохраняя его соотношение сторон */
+  border-radius: 50%; /* Делает изображение круглым */
+}
+
+.contacts {
+  margin-top: 50px;
+}
+
+.contacts ul {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts li {
+  display: flex;
+  align-items: center;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact img {
+  margin-top: 5px;
+  margin-right: 5px;
+}
